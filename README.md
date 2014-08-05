@@ -13,6 +13,8 @@ The included Dockerfile builds an image of Ubuntu 14.04 running elastic search
 
 ###Usage
 
++ Open up the Vagrantfile in a text editor
++ Modify the line starting ``d.create_args`` so that ``<file-path>`` matches your local file path to this project.
 + ``cd ${PROJECT_HOME}``
 + ``vagrant up`` (The first time it is run, this will download a base image of Ubuntu 14.04 from Docker and then install the required packages on the image. So it will be slow the first time, but after that it will be a lot quicker)
 + You will now have all the services required running in a virtual machine.
