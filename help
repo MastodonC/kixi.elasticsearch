@@ -1,6 +1,0 @@
-docker build -t Bungee Docker
-
-docker run -d -p 9200:9200 -p 9300:9300 -v /home/max/vagrant/docker_elastic/data-dir:/data Bungee /elasticsearch/bin/elasticsearch -Des.config=/data/elasticsearch.yml
-
-
-view in browser: http://localhost:9200/
