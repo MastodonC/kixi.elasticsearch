@@ -1,4 +1,4 @@
-# elasticsearch DockerFile
+# elasticsearch Dockerfile
 
 This project contains the files needed to create a Docker image through Vagrant to run elasticsearch.
 The included Dockerfile builds an image of Ubuntu 14.04 running elastic search
@@ -10,6 +10,12 @@ The included Dockerfile builds an image of Ubuntu 14.04 running elastic search
 + install the vbguest plugin so Virtual Box guest additions will updated
   for you ``vagrant plugin install vagrant-vbguest``
 + Install Docker. Instructions can be found [here](http://docs.docker.com/installation/).
+
+Setting up elastic search:
++ Follow the download instructions for elastic search from [here](http://www.elasticsearch.org/overview/elkdownloads/).
++ Install elastic search as the guide instructs.
++ The Vagrantfile and dockerfile are set up to use the included .yml file, as long as you follow the instructions below to add your local path to this project.
+
 
 ###Usage
 
